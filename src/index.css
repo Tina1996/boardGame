@@ -1,0 +1,24 @@
+.box {
+  height: 30px;
+  width: 30px;
+  background: white;
+  border: 1px solid black;
+  font-size: 24px;
+  line-height: 34px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+}
+
+.box:focus {
+  outline: none;
+}
+
+
+.board {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
